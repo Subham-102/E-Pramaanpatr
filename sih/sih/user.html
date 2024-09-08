@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Dashboard</title>
+  
+</head>
+<body>
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+      }
+      
+      .header {
+        background-color: #2c3e50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .container {
+        max-width: 900px;
+        margin: 30px auto;
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+      
+      .user-info {
+        text-align: center;
+      }
+      
+      h2 {
+        color: #34495e;
+      }
+      
+      .document-section, .status-section {
+        margin-top: 20px;
+      }
+      
+      .upload-form label {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 16px;
+        color: #34495e;
+      }
+      
+      .upload-form input[type="file"] {
+        display: block;
+        margin-bottom: 15px;
+      }
+      
+      .upload-form button {
+        background-color: #3498db;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .upload-form button:hover {
+        background-color: #2980b9;
+      }
+      
+      .status-section h3 {
+        margin-bottom: 10px;
+        color: #34495e;
+      }
+      
+      .status-table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      
+      .status-table th, .status-table td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+      }
+      
+      .status-table th {
+        background-color: #ecf0f1;
+      }
+      
+      .status-table td {
+        background-color: #f9f9f9;
+      }
+      
+      .status-table tr:nth-child(even) {
+        background-color: #ecf0f1;
+      }
+      
+      .footer {
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #2c3e50;
+        color: white;
+      }
+      
+      </style>
+
+  <header class="header">
+    <h1>Document Upload & Verification Dashboard</h1>
+    <button type="button" style="background-color: yellowgreen;color: blue;text-decoration:none;font-size: large;"><a href="indexcx.html" target="_parent">Log Out</a></button>
+  </header>
+  
+  <div class="container">
+    <div class="user-info">
+      <h2>Welcome, Ubaid</h2>
+      <p>Check the status of your documents or upload new ones.</p>
+    </div>
+    
+    <div class="document-section">
+      <h3>Upload a Document</h3>
+      <form class="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+        <label for="document">Select Document:</label>
+        <input type="file" id="document" name="document" required>
+        <button type="submit">Upload</button>
+      </form>
+    </div>
+
+    <div class="status-section">
+      <h3>Document Verification Status</h3>
+      <table class="status-table">
+        <thead>
+          <tr>
+            <th>Document Name</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Document1.pdf</td>
+            <td>Pending</td>
+          </tr>
+          <tr>
+            <td>Document2.pdf</td>
+            <td>Verified</td>
+          </tr>
+          <tr>
+            <td>Document3.pdf</td>
+            <td>Rejected</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <p>© 2024 Document Verification System</p>
+  </footer>
+</body>
+</html>
