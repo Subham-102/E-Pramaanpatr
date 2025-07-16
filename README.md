@@ -84,28 +84,32 @@ Right-click index.html > Open with Live Server
 
 ---
 
-👤 Author
-Subham Shaw
-🔗 GitHub
-🔗 LinkedIn
+## 👤 Author
 
-📄 License
-This project is licensed under the MIT License.
+- **Subham Shaw**  
+  🔗 [GitHub](https://github.com/Subham-102)  
+  🔗 [LinkedIn](https://www.linkedin.com/in/subham-shaw-18550b271/)
 
-🙏 Acknowledgements
-Font Awesome
+---
 
-Google Fonts
+## 📄 License
 
-Government & public references for content
+This project is licensed under the [MIT License](LICENSE).
 
-PM's public statement (used respectfully)
+---
 
-🚀 Future Enhancements
-🔐 OTP-based user verification
+## 🙏 Acknowledgements
 
-🧾 PDF certificate generation
+- 🙏 Font Awesome  
+- 🎨 Google Fonts  
+- 📚 Government & public references for content  
+- 🗣️ PM's public statement (used respectfully)
 
-📱 Fully responsive mobile design
+---
 
-🔗 Blockchain-based authentication
+## 🚀 Future Enhancements
+
+- 🔐 OTP-based user verification  
+- 🧾 PDF certificate generation  
+- 📱 Fully responsive mobile design  
+- 🔗 Blockchain-based authentication
