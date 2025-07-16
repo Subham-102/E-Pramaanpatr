@@ -17,7 +17,7 @@
 
 🚀 [Click here to view the live website](https://yourusername.github.io/E-Pramaanpatr)
 
-> Replace with your actual deployment URL if hosted.
+> Not hosted currently.
 
 ---
 
@@ -79,7 +79,10 @@ Run using Live Server:
 
 Install the Live Server extension in VS Code
 
-Right-click index.html > Open with Live Server
+Right-click index.html > Open with Live Server 
+```
+
+---
 
 👤 Author
 Subham Shaw
